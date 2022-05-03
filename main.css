@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
     overflow: hidden;
 }
@@ -45,6 +45,14 @@ header nav {
     margin-top: 10px;
 }
 
+.skyline-image {
+    max-width: 50%;
+    overflow: hidden;
+    max-height: 500px;
+    float: right;
+    
+}
+
 footer {
     min-height: 60px;
     padding: 25px;
@@ -54,4 +62,36 @@ footer {
 
 footer p {
     float: right;
+}
+
+#skills {
+    margin-top: 25px;
+    
+}
+
+#skills .skillBox {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  
+    
+}
+
+#projects {
+    margin-top: 25px;
+}
+
+#projects .projectCard {
+
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    
 }
