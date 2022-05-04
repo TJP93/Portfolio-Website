@@ -67,7 +67,7 @@ footer p {
 }
 
 #skills {
-    margin-top: 25px;
+
     margin-top: 75px;
     margin-bottom: 75px;
 }
@@ -89,7 +89,7 @@ footer p {
 #projects .projectCard {
 
     float: left;
-    width: 29%;
+    width: 20%;
     padding: 10px;
     text-align: center;
     background-color: white;
