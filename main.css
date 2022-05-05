@@ -131,4 +131,68 @@ footer p {
 
 #contactMe p {
     font-size: 30px;
+    margin-bottom: 800px;
 }
+
+@media(max-width: 2700px) {
+.container {
+    width: 90%
+}
+
+@media(max-width: 2070px) {
+    .skyline-image {
+        float: none;
+    }
+}
+
+@media(max-width: 1000px) {
+header .title,
+header nav,
+header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    width: 90%
+}
+
+#welcome h2 {
+    margin-top: 20px;
+    font-size: 60px;;
+}
+
+#welcome p {
+    font-size: 30px;
+}
+
+.skyline-image {
+    float: none;
+    size: fill;
+}
+
+#projects .projectCard {
+    width: 41%
+}
+
+#contactMe h2 {
+    margin-top: 20px
+}
+
+#contactMe p {
+    margin-bottom: 750px
+}
+
+@media(max-width: 720px) {
+    #projects .projectCard {
+        width: 70%;
+        float: none;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #skills .skillBox {
+        float: none;
+        width: 90%;
+    }
