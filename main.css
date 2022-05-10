@@ -55,6 +55,7 @@ header nav {
 
 .skyline-image {
     float: right; 
+    overflow: none;
 }
 
 .intro {
@@ -138,6 +139,7 @@ footer p {
 .container {
     width: 90%
 }
+}
 
 @media(max-width: 2070px) {
     .skyline-image {
@@ -152,6 +154,7 @@ header nav li {
     float: none;
     text-align: center;
     width: 100%;
+}
 }
 
 .container {
@@ -185,14 +188,15 @@ header nav li {
 }
 
 @media(max-width: 720px) {
-    #projects .projectCard {
+#projects .projectCard {
         width: 70%;
         float: none;
         margin: auto;
         margin-bottom: 10px;
-    }
+}
 
-    #skills .skillBox {
+#skills .skillBox {
         float: none;
         width: 90%;
-    }
+} 
+}
