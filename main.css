@@ -155,7 +155,7 @@ header nav li {
     text-align: center;
     width: 100%;
 }
-}
+
 
 .container {
     width: 90%
@@ -185,6 +185,7 @@ header nav li {
 
 #contactMe p {
     margin-bottom: 750px
+}
 }
 
 @media(max-width: 720px) {
